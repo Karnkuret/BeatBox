@@ -23,6 +23,7 @@ public class BeatBox {
 
     public BeatBox(Context context) {
         mAssets = context.getAssets();
+        loadSounds();
     }
 
     private void loadSounds() {
