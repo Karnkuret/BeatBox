@@ -8,14 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
-;
-
 /**
  * Created by Ricardo on 12/23/2016.
  */
 
 public class BeatBoxFragment extends Fragment {
+
     public static BeatBoxFragment newInstance() {
         return new BeatBoxFragment();
     }
@@ -44,6 +42,7 @@ public class BeatBoxFragment extends Fragment {
     }
 
     private class SoundAdapter extends RecyclerView.Adapter<SoundHolder> {
+
         @Override
         public SoundHolder onCreateViewHolder(ViewGroup parent, int ViewType) {
             LayoutInflater inflater = LayoutInflater.from(getActivity());
